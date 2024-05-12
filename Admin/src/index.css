@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*::-webkit-scrollbar{
+    width: 0.5rem;
+    height: 0.5rem;
+}
+
+*::-webkit-scrollbar-thumb{
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  background-color: #0004;
+  visibility: hidden;
+}
+
+*:hover::-webkit-scrollbar-thumb{
+  visibility: visible;
+}
+
